@@ -51,7 +51,7 @@ export default class Cl_operador {
         return this.cantidadExt() * this.incremento();
     }
     total(){
-        return this.bonoExt() + this.precioB;
+        return this.bonoExt() + (this.precioB * this.horasT);
     }
 
 }
